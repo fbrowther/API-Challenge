@@ -36,7 +36,7 @@ Employing Google Places API, hotels located within 5000 meters of city coordinat
 
 # Important initial requirements:
 
-#### (1) Create API Keys on (a) OpenWeatherMap (https://openweathermap.org/) and store it as 'weather_api_key'in a config file
+#### (1) Create API Keys on OpenWeatherMap (https://openweathermap.org/) and store it as 'weather_api_key'in a config file
 
 #### (2) Create Google API Key (https://console.developers.google.com/getting-started) and store it as 'g_key' in the same config file.
 
