@@ -35,12 +35,13 @@ WeatherPy DataFrame was narrowed down to find an ideal weather condition such as
 Employing Google Places API, hotels located within 5000 meters of city coordinates was determined and the hotels were plotted on google maps on top of the humidity heatmap
 
 # Important initial requirements:
-## (1) Create API Keys on (a) OpenWeatherMap (https://openweathermap.org/) and store it as 'weather_api_key'in a config file
 
-## (2) Create Google API Key (https://console.developers.google.com/getting-started) and store it as 'g_key' in the same config file.
+# (1) Create API Keys on (a) OpenWeatherMap (https://openweathermap.org/) and store it as 'weather_api_key'in a config file
 
-## (3) From the local terminal add the config file (containing API keys) onto the '.gitignore' file so user credentials and API keys are not exposed.
+# (2) Create Google API Key (https://console.developers.google.com/getting-started) and store it as 'g_key' in the same config file.
 
-## (4) Install citipy in your python environment (https://pypi.python.org/pypi/citipy)
+# (3) From the local terminal add the config file (containing API keys) onto the '.gitignore' file so user credentials and API keys are not exposed.
 
-## (5) Make sure that you do not request weather data for 500+ cities in one go. Instead request them using a counter function of sets <50 per requests. Otherwise, the APIweather data website might block your API_key from accessing any further data from their website.
+# (4) Install citipy in your python environment (https://pypi.python.org/pypi/citipy)
+
+# (5) Make sure that you do not request weather data for 500+ cities in one go. Instead request them using a counter function of sets <50 per requests. Otherwise, the APIweather data website might block your API_key from accessing any further data from their website.
