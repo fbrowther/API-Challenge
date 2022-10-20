@@ -27,7 +27,7 @@ Retrieved data was saved as a CSV file along with PNG image for each scatter plo
 
 Employing google maps (gmaps), a heatmap that displays the humidity data for every city generated from WeatherPy was created.
 
-WeatherPy DataFrame was narrowed to find an ideal weather condition such as
+WeatherPy DataFrame was narrowed down to find an ideal weather condition such as
 (i) City temperature between 70 and 80 degrees F.
 (ii) Wind speed less than 10 mph.
 (iii) Zero cloudiness.
