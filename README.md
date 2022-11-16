@@ -5,9 +5,9 @@
 Weather of 500+ cities across the world of varying distance from the equator was obtained (randomly) using the OpenWeatherMap API. The data obtained was cleaned, and a pandas dataframe was created. Using this dataframe, a series of analysis to determine the relationship of different variables was carried out 
 
 This includes determining relationship between -
-Temperature (F) vs. Latitude
-Humidity (%) vs. Latitude
-Cloudiness (%) vs. Latitude
+Temperature (F) vs. Latitude,
+Humidity (%) vs. Latitude,
+Cloudiness (%) vs. Latitude,
 Wind Speed (mph) vs. Latitude
 
 Data was then grouped based on their location in the northern (greater than or equal to 0 degrees latitude) or sourthern (less than 0 degrees latitude) hemisphere and a series of linear regression on each relationship was carried out
